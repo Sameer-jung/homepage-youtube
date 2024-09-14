@@ -49,14 +49,20 @@
 
 
 .search-button,
-.voice-button{
+.voice-button,
+.upload-image-here,
+.youtube-apps-here,
+.notication-wala-div{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .search-button .tool-tip,
-.voice-button .tool-tip{
+.voice-button .tool-tip,
+.upload-image-here .tool-tip,
+.youtube-apps-here .tool-tip,
+.notication-wala-div .tool-tip{
     position: absolute;
     /* top: 50px; */
     bottom: -30px;
@@ -74,7 +80,10 @@
 
 
  .search-button:hover .tool-tip,
- .voice-button:hover .tool-tip{
+ .voice-button:hover .tool-tip,
+ .upload-image-here:hover .tool-tip,
+ .youtube-apps-here:hover .tool-tip,
+ .notication-wala-div:hover .tool-tip{
     opacity: 1;
  }
 
